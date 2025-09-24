@@ -1,0 +1,127 @@
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;  
+
+}
+
+header{   
+    background-image:  url('helloword.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;  
+    color: #f3f3f3;   
+    padding: 150px 0px;
+    text-align: center; 
+   
+}
+
+.conteudo {        
+    max-width: 1600px;
+    margin: 2px;
+    padding: 10 50px;
+    flex:30;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-left: 20;
+    
+}
+
+.perfil img {
+    width: 150px;  
+    height:150px;
+    border-radius: 30%; 
+    border: 2px solid #f3eeee;
+   
+}
+
+
+header p {               
+    font-size: large;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+section {                           
+    background-color: #282a31;
+    color: #f9fbfc;  
+    padding: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    
+}
+
+section h2 {
+    border-bottom: 5px solid #496272; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    width: 150px; 
+    margin: 5px auto; 
+    padding-bottom: 0px; 
+   
+}
+.lista-container {
+  display: flex;
+  justify-content: center; 
+  gap: 50px;
+}
+
+.lista-container h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: 5px solid #496272;
+  border-bottom-left-radius: 15px; /* Arredonda o canto inferior esquerdo */
+  border-bottom-right-radius: 15px; /* Arredonda o canto inferior direito */
+  margin: 8px auto; /* Centraliza a linha e dá um espaçamento */
+}
+.lista-container ul {
+
+  list-style: none;
+}
+
+.lista {
+  display: flex; 
+  justify-content: center; 
+  gap: 50px; 
+  color: #ffffff;
+  flex-wrap: wrap;
+  padding: 5px 10px; 
+  
+}
+
+.lista-container-contato {
+  
+  display: flex; 
+  justify-content: center;
+  gap: 50px; 
+  color: #ffffff;
+  flex-wrap: wrap;
+  padding: 8px 15px;
+  margin-top: 30px;
+  
+}
+
+.botoes-contato {
+    background-color: #536c84; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botoes-contato:hover {
+    background-color: #415568; 
+}
+
+.container {
+    background-color: #282a31;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   box-shadow: 0 2px 10px rgba(53, 53, 51, 0.955); 
+}
